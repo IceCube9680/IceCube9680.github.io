@@ -8,6 +8,14 @@
   --primary-color: #00c6ff;
   --social-icon-color: rgba(255, 255, 255, 0.9);
 
+  /* Social Media Brand Colors */
+  --brand-github: #ffffff;
+  --brand-twitter: #1da1f2;
+  --brand-linkedin: #0a66c2;
+  --brand-instagram: #e1306c;
+  --brand-youtube: #ff0000;
+  --brand-discord: #5865f2;
+
   --font-family-base: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
   --font-size-h1: 2.375rem; /* 38px */
@@ -90,11 +98,6 @@ a:hover {
   color: rgba(0, 198, 255, 0.8);
 }
 
-.social a:hover {
-  /* On hover, make social links pop with the primary color */
-  color: var(--primary-color);
-}
-
 /* Social Links */
 .social {
   margin-top: 0.875rem; /* 14px */
@@ -105,6 +108,36 @@ a:hover {
   font-size: var(--font-size-body);
   font-weight: 500;
   color: var(--social-icon-color);
+}
+
+/* Brand-specific Social Icon Colors */
+.social a.github {
+  color: var(--brand-github);
+}
+
+.social a.twitter {
+  color: var(--brand-twitter);
+}
+
+.social a.linkedin {
+  color: var(--brand-linkedin);
+}
+
+.social a.instagram {
+  color: var(--brand-instagram);
+}
+
+.social a.youtube {
+  color: var(--brand-youtube);
+}
+
+.social a.discord {
+  color: var(--brand-discord);
+}
+
+.social a:hover {
+  /* On hover, make social links pop with the primary color */
+  color: var(--primary-color);
 }
 
 /* Footer */
